@@ -114,6 +114,8 @@ h3{
 
 .movierow{
     padding: 5px;
+    overflow: hidden;
+    overflow-x: scroll;
 }
 
 .movieimg{
@@ -164,7 +166,8 @@ p{
     .movierow{
         display: flex;
         flex-wrap: nowrap;
-        overflow-x: auto;
+        overflow: hidden;
+        overflow-x: scroll;
         width: auto;
     }
 
