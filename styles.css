@@ -134,6 +134,10 @@ p{
 
 @media screen and (max-width: 768px) {
     /* For mobile phones: */
+    .headerlogo{
+        max-height: 70px;
+    }
+
     .row {
         display: flex;
         flex-wrap: nowrap;
@@ -171,7 +175,7 @@ p{
     }
 
     .movieimg{
-        height: 100px;
+        height: 150px;
         max-width: 200px;
         object-fit: cover;
     }
