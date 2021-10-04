@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.headerlogo{
+    background-color: #040714;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 10px 30px;
+    width: 150px;
+}
+
+.button{
+    border: none;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #040714;
+    color: rgb(250, 250, 250); 
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+  
+.btn:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.login a{
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.container{
+    background-image: url(./assets/images/login-background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+}
+
+.but {
+  background-color: #0063e5;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 25px 300px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.but:hover{
+    background-color: #0c2968;
+    color: rgb(255, 253, 253);
+}
+
+.subcon{
+    text-align: center;
+    padding: 80px 270px;
+}
+
+.landimg{
+    width: 780px;
+    padding: 10px;
+}
+
+.premier{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .logo{
+        padding: 10px 30px;
+        width: 150px;
+    }
+
+    .but{
+        padding: 25px 60px;
+    }
+
+    .subcon{
+        text-align: center;
+        padding: 100px 10px;
+    }
+
+    .landimg{
+        width: 300px;
+        padding: 10px;
+    }
+
+    .premier{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: normal;
+        padding: 10px;
+    }
+}
