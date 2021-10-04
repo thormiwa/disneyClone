@@ -104,6 +104,10 @@ body, html {
 
 @media screen and (max-width: 768px) {
     /* For mobile phones: */
+    .headerlogo{
+        height: auto;
+    }
+
     .logo{
         padding: 10px 30px;
         width: 150px;
