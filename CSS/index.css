@@ -105,7 +105,7 @@ body, html {
 @media screen and (max-width: 768px) {
     /* For mobile phones: */
     .headerlogo{
-        height: auto;
+        max-height: 70px;
     }
 
     .logo{
