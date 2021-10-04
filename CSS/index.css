@@ -55,7 +55,7 @@ body, html {
 }
 
 .container{
-    background-image: url(./assets/images/login-background.jpg);
+    background-image: url(/assets/images/login-background.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
