@@ -12,7 +12,6 @@ body, html {
 }
 
 .headerlogo{
-    max-width: 130px;
     background-color: #040714;
     display: flex;
     justify-content: space-between;
